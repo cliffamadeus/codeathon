@@ -7,7 +7,7 @@ public class Easy {
 		int athon = 96;
 		
 		if(coda==19 && athon==96) {
-			System.out.println("Both condition are true");
+			System.out.println("Both conditions are true");
 			System.out.println("Incremented coda: " + ++coda);
 			System.out.println("Incremented athon: " + ++athon);
 		}else {
@@ -15,5 +15,4 @@ public class Easy {
 		}
 
 	}
-
 }
