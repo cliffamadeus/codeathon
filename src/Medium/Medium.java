@@ -8,8 +8,12 @@ public class Medium {
 	public double withdraw(double balance, double amountToWithdraw) {
 		
 		 if (balance > amountToWithdraw) {
+			 System.out.println("Withdrawal successful!");
+			 System.out.println("Current Balance is:");
 			 return balance - amountToWithdraw;
 	     }else {
+	    	 System.out.println("Insufficient Balance!");
+			 System.out.println("Current Balance is:");
 	    	 return balance;
 	     }
 	}
@@ -18,7 +22,7 @@ public class Medium {
 		
 		Medium test = new Medium();
 		
-		System.out.println(test.withdraw(1000, 500));
+		System.out.println(test.withdraw(1000, 5000));
 	}
 
 }
